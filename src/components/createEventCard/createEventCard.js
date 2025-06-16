@@ -1,4 +1,4 @@
-import '../../../../vite-project/style.css'
+/* import './vite-project/style.css' */
 import './createEventCard.css'
 import { createDeleteUpdateMenu } from '../deleteUpdateMenu/deleteUpdateMenu.js'
 import { createAttendButton } from '../attendBtn/attendBtn.js'

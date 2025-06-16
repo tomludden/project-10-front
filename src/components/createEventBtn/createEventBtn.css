@@ -1,0 +1,19 @@
+.create-event-btn {
+  background-color: dodgerblue !important;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 11.5%;
+  left: 10px;
+  cursor: pointer;
+  z-index: 100;
+  transition: transform 0.3s ease;
+}
+
+.create-event-btn:hover {
+  transform: scale(1.1);
+}

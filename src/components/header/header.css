@@ -1,0 +1,72 @@
+#header {
+  background-color: var(--header);
+  display: flex;
+  color: var(--button-dark-color);
+  width: 100%;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  z-index: 100000;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.nav a {
+  color: dodgerblue !important;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 550;
+}
+
+.nav a:hover {
+  transform: scale(1.1);
+}
+
+/* .nav-btn {
+  border-radius: 8px;
+  border: 0.5px solid var(--border-color);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--button-dark-bg);
+} */
+
+.nav-btn {
+  border-radius: 8px;
+  border: 0.5px solid var(--border-color);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--button-dark-bg);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.nav-btn:hover {
+  border-color: dodgerblue;
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  a {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 465px) {
+  .nav a {
+    color: dodgerblue !important;
+    font-size: 1.2rem;
+  }
+  .nav-btn {
+    transform: scale(0.8);
+    font-size: 14px;
+  }
+}

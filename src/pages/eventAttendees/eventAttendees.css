@@ -1,0 +1,46 @@
+.event-attendees-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.attending-event-title {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.attendees-title {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.attendee-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.attendee-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  text-align: center;
+}
+
+.attendee-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.attendee-name {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}

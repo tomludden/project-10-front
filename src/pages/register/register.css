@@ -1,0 +1,123 @@
+.profile-page {
+  display: flex;
+  padding-top: 30px;
+  flex-direction: column;
+  align-items: center;
+  height: 100svh;
+  width: 100%;
+}
+
+#userName {
+  border: 0.5px solid var(--border-color);
+  margin-top: 20px;
+}
+
+#update-form {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#update-form input {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: var(--border-radius);
+}
+
+#update-form button {
+  padding: 10px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  border: 0.5px solid var(--border-color);
+}
+
+#update-form button:hover {
+  padding: 10px;
+  scale: 1.1;
+  background-color: dodgerblue;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.avatar-img {
+  position: absolute;
+  top: 40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border-color);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.profile-page-title {
+  font-size: 35px;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.profile-info p {
+  margin: 10px 0;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70svh;
+  padding-top: 140px;
+}
+#form > input {
+  border-radius: 10px;
+  margin: 20px;
+}
+
+#username,
+#password,
+#email,
+#loginBtn {
+  width: 150px;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+}
+#userName {
+  width: 150px;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+}
+#registerbtn {
+  width: 120px;
+  padding: 6px 8px;
+  border: 0.5px solid var(--border-color);
+  border-radius: var(--border-radius);
+  position: absolute;
+  bottom: 190px;
+  cursor: pointer;
+}
+
+input[type='file'] {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+label[for='avatar'] {
+  cursor: pointer;
+  width: 120px;
+  border: 1px solid #646cff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+}

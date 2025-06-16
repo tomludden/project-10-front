@@ -1,0 +1,30 @@
+.user-header {
+  position: absolute;
+  top: 1px;
+  right: -2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10px;
+  width: 100%;
+  max-width: 80px;
+  cursor: pointer;
+}
+
+.welcome-avatar-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--primary-border-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 10px 0 5px;
+}
+
+.welcome-message {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 0.7rem;
+}

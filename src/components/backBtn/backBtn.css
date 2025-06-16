@@ -1,0 +1,12 @@
+.back-btn {
+  font-size: 1rem;
+  padding: 6px 8px;
+  margin-top: 20px;
+  background-color: transparent;
+  border: 0.5px solid var(--border-color);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  text-align: center;
+  color: var(--dark-bg-color);
+  transition: background 0.2s;
+}

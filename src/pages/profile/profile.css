@@ -1,0 +1,72 @@
+.profile-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.btn-container button {
+  width: 140px;
+  height: 50px;
+  border: 0.5px solid var(--border-color);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+.update-btn:hover {
+  background-color: lightgreen;
+}
+
+.delete-btn:hover {
+  background-color: lightcoral;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.confirm-box {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.confirm-box p {
+  margin-bottom: 20px;
+  color: #868282;
+}
+
+.confirm-box button {
+  margin: 0 10px;
+  width: 60px;
+  height: 35px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.confirm-yes:hover {
+  background-color: lightgreen;
+}
+
+.confirm-no:hover {
+  background-color: lightcoral;
+}

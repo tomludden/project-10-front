@@ -1,0 +1,82 @@
+#create-event-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100svh;
+  font-family: Montserrat, sans-serif;
+  padding: var(--padding);
+}
+
+.create-event-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  max-width: 400px;
+  padding: var(--padding);
+  box-sizing: border-box;
+  color: inherit;
+  font-family: inherit;
+}
+
+.create-event-form input {
+  padding: 5px;
+  height: 30px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+}
+
+.create-event-form button.submit-btn {
+  margin: auto;
+  padding: 10px 20px;
+  color: var(--button-dark-color);
+  border: 0.5px solid var(--border-color);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.create-event-form button.submit-btn:hover {
+  background-color: var(--accent-color);
+}
+
+.file-button {
+  border-radius: var(--border-radius);
+  height: 40px;
+  cursor: pointer;
+  background-color: var(--accent-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--border-color);
+  padding: 0 10px;
+  margin-left: 5px;
+}
+
+.file-button:hover {
+  background-color: var(--hover-color);
+}
+
+.preview-img {
+  width: 150px;
+  height: 150px;
+  padding: 10px 0 25px;
+}
+
+.remove-btn {
+  margin: auto;
+  padding: 10px 20px;
+  color: #fff;
+  border: 0.5px solid var(--border-color);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+.remove-btn:hover {
+  background-color: var(--accent-color);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

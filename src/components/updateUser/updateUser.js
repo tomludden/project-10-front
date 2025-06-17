@@ -128,11 +128,11 @@ async function handleProfileUpdate({
     localStorage.setItem('user', JSON.stringify(updatedUser))
 
     if (updatedUser.avatar) {
+      showPopup('Profile updated successfully!')
       window.location.reload()
+
       return
     }
-
-    showPopup('Profile updated successfully!')
   } catch (error) {
     showPopup(`Error updating profile!`)
     navigateTo('#/home')

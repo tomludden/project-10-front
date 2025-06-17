@@ -100,7 +100,7 @@
   border: 0.5px solid var(--border-color);
   border-radius: var(--border-radius);
   position: absolute;
-  bottom: 160px;
+  bottom: 180px;
   cursor: pointer;
 }
 

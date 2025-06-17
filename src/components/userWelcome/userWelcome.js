@@ -5,7 +5,7 @@ export function createUserHeader(userData) {
   container.classList.add('user-header')
 
   const avatar = document.createElement('img')
-  avatar.src = userData.avatar || '/assets/images/default-avatar.png'
+  avatar.src = userData.avatar || '/assets/images/default-avatar-1.png'
   avatar.alt = 'User Avatar'
   avatar.classList.add('welcome-avatar-img')
 

@@ -41,11 +41,11 @@ export async function renderEventAttendees(app, event) {
       card.classList.add('attendee-card')
 
       const avatar = document.createElement('img')
-      avatar.src = user.avatar || '/assets/images/default-avatar.png'
+      avatar.src = user.avatar || '/assets/images/default-avatar-1.png'
       avatar.alt = `${user.userName || 'User'}'s avatar`
       avatar.classList.add('attendee-avatar')
       avatar.onerror = () => {
-        avatar.src = '/assets/images/default-avatar.png'
+        avatar.src = '/assets/images/default-avatar-1.png'
       }
 
       const name = document.createElement('span')

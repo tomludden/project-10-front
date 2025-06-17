@@ -62,7 +62,7 @@ export function renderUpdateProfilePage() {
   avatarPreview.id = 'avatar-preview'
   avatarPreview.classList.add('update-avatar-img')
   avatarPreview.alt = 'Avatar preview'
-  avatarPreview.src = user.avatar || '/assets/images/default-avatar.png'
+  avatarPreview.src = user.avatar || '/assets/images/default-avatar-1.png'
 
   avatarInput.addEventListener('change', () => {
     const file = avatarInput.files[0]

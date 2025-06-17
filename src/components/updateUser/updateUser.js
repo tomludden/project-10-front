@@ -129,8 +129,7 @@ async function handleProfileUpdate({
 
     if (updatedUser.avatar) {
       showPopup('Profile updated successfully!')
-      setTimeout(() => window.location.reload(), 1500)
-      return
+      setTimeout(navigateTo('#/home'), 1500)
     }
   } catch (error) {
     showPopup(`Error updating profile!`)

@@ -45,7 +45,7 @@
 
 .avatar-img {
   position: absolute;
-  top: 40px;
+  top: 25px;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -55,9 +55,9 @@
   background-position: 50%;
 }
 .profile-page-title {
-  font-size: 35px;
-  padding-top: 20px;
-  margin-top: 20px;
+  font-size: 25px;
+  padding-top: 15px;
+  margin-top: 15px;
 }
 .profile-info {
   display: flex;
@@ -78,7 +78,7 @@
 }
 #form > input {
   border-radius: 10px;
-  margin: 20px;
+  margin: 15px;
 }
 
 #username,
@@ -100,7 +100,7 @@
   border: 0.5px solid var(--border-color);
   border-radius: var(--border-radius);
   position: absolute;
-  bottom: 190px;
+  bottom: 160px;
   cursor: pointer;
 }
 

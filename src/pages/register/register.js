@@ -51,8 +51,7 @@ export function renderRegisterUI() {
 
   const avatarPreview = document.createElement('img')
   avatarPreview.id = 'avatar-preview'
-  avatarPreview.src =
-    avatar || 'vite-project/public/assets/images/default-avatar-2.png'
+  avatarPreview.src = avatar || '/assets/images/default-avatar-1.png'
   avatarPreview.alt = 'Avatar preview'
   avatarPreview.classList.add('avatar-img')
 

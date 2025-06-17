@@ -1,4 +1,3 @@
-// vite.config.js
 export default {
   preview: {
     host: '0.0.0.0',

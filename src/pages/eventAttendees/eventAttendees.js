@@ -42,11 +42,11 @@ export async function renderEventAttendees(app, event) {
 
       const avatar = document.createElement('img')
       avatar.src =
-        user.avatar || 'vite-project/public/assets/images/default-avatar-2.png'
+        user.avatar || '../../../../public/assets/images/default-avatar-2.png'
       avatar.alt = `${user.userName || 'User'}'s avatar`
       avatar.classList.add('attendee-avatar')
       avatar.onerror = () => {
-        avatar.src = 'vite-project/public/assets/images/default-avatar-2.png'
+        avatar.src = '../../../../public/assets/images/default-avatar-2.png'
       }
 
       const name = document.createElement('span')

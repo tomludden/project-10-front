@@ -63,7 +63,7 @@ export function renderUpdateProfilePage() {
   avatarPreview.classList.add('update-avatar-img')
   avatarPreview.alt = 'Avatar preview'
   avatarPreview.src =
-    user.avatar || 'vite-project/public/assets/images/default-avatar-2.png'
+    user.avatar || '../../../../public/assets/images/default-avatar-2.png'
 
   avatarInput.addEventListener('change', () => {
     const file = avatarInput.files[0]

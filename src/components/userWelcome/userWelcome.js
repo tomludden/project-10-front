@@ -6,7 +6,7 @@ export function createUserHeader(userData) {
 
   const avatar = document.createElement('img')
   avatar.src =
-    userData.avatar || 'vite-project/public/assets/images/default-avatar-2.png'
+    userData.avatar || '../../../../public/assets/images/default-avatar-2.png'
   avatar.alt = 'User Avatar'
   avatar.classList.add('welcome-avatar-img')
 

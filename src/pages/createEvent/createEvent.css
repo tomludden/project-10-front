@@ -81,7 +81,7 @@
   align-items: center;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 435px) {
   .file-name-display {
     width: 120px;
   }

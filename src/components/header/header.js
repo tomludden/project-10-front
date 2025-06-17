@@ -42,16 +42,14 @@ export const Header = () => {
   const storedUser = getUser()
 
   if (storedUser) {
-    loginBtn.textContent = 'Logout';
+    loginBtn.textContent = 'Logout'
     loginBtn.onclick = () => {
-      localStorage.removeItem('user');
-      showPopup('Logged out successfully');
-      Header();
-      navigateTo('#/home');
-      window.location.reload();
-    };
-  }
-  
+      localStorage.removeItem('user')
+      showPopup('Logged out successfully')
+      Header()
+      navigateTo('#/home')
+      window.location.reload()
+    }
 
     signUpBtn.textContent = 'My Events'
     signUpBtn.onclick = () => navigateTo('#/my-events')

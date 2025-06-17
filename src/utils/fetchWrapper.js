@@ -3,7 +3,8 @@ import {
   hideSpinner
 } from '../components/loadingSpinner/loadingSpinner.js'
 
-const API_BASE_URL = 'http://localhost:3000/api/v1'
+const API_BASE_URL =
+  import.meta.env.VITE_API_URL || 'http://localhost:3000/api/v1'
 
 function buildUrl(endpoint) {
   return endpoint.startsWith('http')

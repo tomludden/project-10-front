@@ -118,8 +118,10 @@ async function handleProfileUpdate({
     if (password) formData.append('password', password)
     if (avatarFile) formData.append('avatar', avatarFile)
 
-    const data = await fetchWrapper(`/users/${userId}`, formData, {
-      Authorization: `Bearer ${token}`
+    const data = await fetchWrapper(`/users/${userId}`, {
+      method: 'PUT',
+      body: formData,
+      auth: true
     })
 
     const updatedUser = { ...data.user, token: data.token }

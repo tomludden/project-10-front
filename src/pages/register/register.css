@@ -121,3 +121,8 @@ label[for='avatar'] {
   margin-top: 20px;
   text-align: center;
 }
+@media (max-height: 670px) {
+  #registerbtn {
+    bottom: 120px;
+  }
+}

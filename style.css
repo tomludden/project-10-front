@@ -31,6 +31,8 @@ body {
   color: var(--primary-text-dark);
   background-color: var(--primary-bg-dark);
   font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  outline: 1px solid red;
 }
 
 body::-webkit-scrollbar {

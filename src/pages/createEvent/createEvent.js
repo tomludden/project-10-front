@@ -115,7 +115,8 @@ export async function renderCreateEventForm() {
     dateFormat: 'd M',
     altInput: false,
     allowInput: true,
-    disableMobile: true
+    disableMobile: true,
+    minDate: 'today'
   })
 
   const locationInput = document.createElement('input')

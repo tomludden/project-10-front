@@ -18,7 +18,7 @@ In the next screenshot the main functionality buttons are shown. These include t
 
 ## Production Deployment
 
-https://project-10-front.vercel.app/\
+https://project-10-front.vercel.app/--
 https://project-10-ptig.onrender.com/
 
 ## Endpoints

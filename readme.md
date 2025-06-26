@@ -2,7 +2,7 @@
 
 This event management app was made with **Node, Express, CORS, MongoDB, dotenv, Javascript Vanilla, CSS, HTML, Multer, Cloudinary, Jsonwebtoken and Vite**.
 
-The app is a solution that supports file uploads (avatars and posters), and includes authentication middleware that allows users to Create, Read, Update, and Delete events (users can only delete and update their own evnts that they have created), these options can be accessed using the **menu with 3 dots** on the top left of the event card as shown in the screen shot below. Also shown is an **attend button** that allows users to attend or unattend the events.
+The app is a solution that supports file uploads (avatars and posters), and includes authentication middleware that allows users to Create, Read, Update, and Delete events (users can only delete and update their own evnts that they have created), these options can be accessed using the **menu with 3 dots** on the top left of the event card as shown in the screen shot below. Also shown is an **attend button** that allows users to attend or unattend the events. When the event card is clicked it shows the attendees registered for the event.
 
 ![Screenshot](https://raw.githubusercontent.com/tomludden/project-10-front/main/public/assets/images/Captura%20de%20Pantalla%202025-06-26%20a%20las%200.09.21.png)
 
@@ -18,7 +18,7 @@ In the next screenshot the main functionality buttons are shown. These include t
 
 ## Production Deployment
 
-https://project-10-front.vercel.app/
+https://project-10-front.vercel.app/\
 https://project-10-ptig.onrender.com/
 
 ## Endpoints

@@ -12,8 +12,8 @@
 }
 
 .welcome-avatar-img {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--primary-border-color);
@@ -27,4 +27,10 @@
   flex-direction: column;
   text-align: center;
   font-size: 0.7rem;
+}
+@media (max-width: 390px) {
+  .welcome-avatar-img {
+    width: 45px;
+    height: 45px;
+  }
 }

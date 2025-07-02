@@ -127,7 +127,7 @@ async function handleProfileUpdate({
     const updatedUser = { ...data.user, token: data.token }
     localStorage.setItem('user', JSON.stringify(updatedUser))
 
-    if (updatedUser.avatar) {
+    if (updatedUser) {
       showPopup('Profile updated successfully!')
       setTimeout(navigateTo('#/home'), 1500)
     }

@@ -49,6 +49,9 @@ export async function fetchWrapper(
   }
 
   if (showLoading) showSpinner()
+  console.log('📡 Fetching:', url)
+  console.log('📤 Fetch body:', body)
+  console.log('📦 Fetch headers:', fetchOptions.headers)
 
   try {
     const response = await fetch(url, fetchOptions)
@@ -67,5 +70,10 @@ export async function fetchWrapper(
     throw err
   } finally {
     if (showLoading) hideSpinner()
+  }
+  try {
+    console.log('🔍 Parsed body:', JSON.parse(fetchOptions.body))
+  } catch (err) {
+    console.warn('⚠️ Could not parse body:', err.message)
   }
 }
